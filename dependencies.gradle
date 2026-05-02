@@ -31,7 +31,7 @@ def external = [
 def test = [
         junit      : 'junit:junit:4.12',
         mockito    : 'org.mockito:mockito-core:3.3.3',
-        assertCore : 'org.assertj:assertj-core:3.16.0',
+        assertCore : 'org.assertj:assertj-core:3.27.6',
         robolectric: "org.robolectric:robolectric:${versions.robolectricVersion}",
 ]
 
