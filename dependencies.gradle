@@ -1,8 +1,8 @@
 def versions = [
         androidGradlePluginVersion: '7.4.1',
-        robolectricVersion        : '4.9.2',
+        robolectricVersion        : '4.16.1',
         guavaVersion              : '18.0',
-        apacheCommonsVersion      : '3.3.2',
+        apacheCommonsVersion      : '3.20.0',
 ]
 
 def buildConfig = [
@@ -30,7 +30,7 @@ def external = [
 
 def test = [
         junit      : 'junit:junit:4.12',
-        mockito    : 'org.mockito:mockito-core:3.3.3',
+        mockito    : 'org.mockito:mockito-core:3.12.4',
         assertCore : 'org.assertj:assertj-core:3.16.0',
         robolectric: "org.robolectric:robolectric:${versions.robolectricVersion}",
 ]
